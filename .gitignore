@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Tests / cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Preferencias y estado local (nunca deben subirse)
+.mercadona_mcp_prefs.json
+*.mercadona_mcp_prefs.json
+
+# Config real con credenciales (solo el .example.json va al repo)
+claude_desktop_config.json
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "mercadona": {
+      "command": "python",
+      "args": ["-m", "mercadona_mcp.server"],
+      "cwd": "C:\\ruta\\a\\MCP_Mercadona",
+      "env": {
+        "PYTHONPATH": "C:\\ruta\\a\\MCP_Mercadona",
+        "MERCADONA_POSTAL_CODE": "28001",
+        "MERCADONA_WAREHOUSE": "mad1",
+        "MERCADONA_EMAIL": "tu_email@ejemplo.com",
+        "MERCADONA_PASSWORD": "tu_password",
+        "MERCADONA_ENABLE_CHECKOUT": "0"
+      }
+    }
+  }
+}
