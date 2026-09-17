@@ -9,7 +9,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest>=8.0,<9.0"]
+dev = ["pytest>=8.0,<10.0"]
 
 [project.scripts]
 mercadona-mcp = "mercadona_mcp.server:main"
